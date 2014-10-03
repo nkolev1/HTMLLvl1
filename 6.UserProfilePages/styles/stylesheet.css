@@ -1,0 +1,18 @@
+body {
+    background-color: #add8e6;
+}
+.dt-bold dt {
+    float: left;
+    text-align: right;
+    font-weight: bold;
+
+}
+.dt-colon dt:after {
+    content: " : ";
+}
+
+.dt-italic dt {
+    /*float: left;
+    text-align: right;*/
+    font-style: italic;
+}
